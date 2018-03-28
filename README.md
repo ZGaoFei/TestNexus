@@ -176,6 +176,7 @@ Nexus 私服安装和打开过程（以Nexus3.9.0）
     aar包里面如果引用有远端maven仓库里的其他包，
     需要添加maven仓库的地址（maven { url 'url' }，可能是maven仓库也可能是自己维护的maven仓库），
     否则找不到引用。
+    在更新nexus仓库里面的aar包时，需要修改一下版本号，不然更新失败
 
 
 > 测试的项目代码为 TestMavenLibrary
